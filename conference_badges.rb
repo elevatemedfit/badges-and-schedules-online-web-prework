@@ -14,6 +14,6 @@ end
 
 def printer(attendees)
     puts batch_badge_creator(attendees).shift
-      badge_maker(attendees)
+      badge_maker(attendees).shift
       puts assign_rooms(attendees).shift
   end
