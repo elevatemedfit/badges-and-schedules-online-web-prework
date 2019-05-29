@@ -21,3 +21,4 @@ def printer(attendees)
       puts assign_rooms(attendees).shift
       count+=1
   end
+end
