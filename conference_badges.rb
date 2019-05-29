@@ -9,7 +9,7 @@ end
 def assign_rooms(attendees)
   size=attendees.size
   count=0
-   attendees.map { |e|  "Hello, #{e}! You'll be assigned to room #{count+=1}!"}
+   puts attendees.map { |e|  "Hello, #{e}! You'll be assigned to room #{count+=1}!"}
 end
 
 def printer(attendees)
