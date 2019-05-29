@@ -1,3 +1,4 @@
+require "pry"
 def badge_maker(name)
       "Hello, my name is #{name}."
 end
@@ -15,7 +16,8 @@ end
 
 def printer(attendees)
   array = batch_badge_creator(attendees)
-  puts array.each
+  binding.pry
+  array.each{|badge| puts ""}
 
   #attendees_size=attendees.size
   #count=0
