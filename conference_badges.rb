@@ -16,7 +16,7 @@ end
 
 def printer(attendees)
   array = batch_badge_creator(attendees)
-  binding.pry
+  
   array.each{|badge| puts badge}
 
   #attendees_size=attendees.size
