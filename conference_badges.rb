@@ -16,7 +16,7 @@ def printer(attendees)
   attendees_size=attendees.size
   count=0
   while count<attendees_size
-    puts batch_badge_creator(attendees).shift
+    puts batch_badge_creator.shift(attendees)
       badge_maker(attendees)
       puts assign_rooms(attendees)
       count+=1
