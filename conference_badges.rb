@@ -1,9 +1,9 @@
 def badge_maker(name)
-       "Hello, my name is #{name}."
+       name.map{|n|"Hello, my name is #{n}."
 end
 
 def batch_badge_creator(attendees)
-    return attendees.map {|name|  badge_maker(name)}
+     attendees.map {|name|  badge_maker(name)}
 end
 
 def assign_rooms(attendees)
