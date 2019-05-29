@@ -9,7 +9,7 @@ end
 def assign_rooms(attendees)
   size=attendees.size
   count=0
-    attendees.map { |e|  "Hello, #{e}! You'll be assigned to room #{count+=1}!"}
+    room_assignments=attendees.map { |e|  "Hello, #{e}! You'll be assigned to room #{count+=1}!"}
 end
 
 def printer(attendees)
@@ -18,7 +18,7 @@ def printer(attendees)
   while count<attendees_size
     puts batch_badge_creator(attendees)
       badge_maker(attendees)
-      puts assign_rooms(attendees)
+      puts room_assignments
       count+=1
   end
 end
