@@ -4,6 +4,7 @@ end
 
 def batch_badge_creator(attendees)
     tags= attendees.map {|name|  badge_maker(name)}
+    return tags
 end
 
 def assign_rooms(attendees)
