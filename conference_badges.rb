@@ -1,5 +1,5 @@
 def badge_maker(name)
-       "Hello, my name is #{name}."
+      name_tags= "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(attendees)
@@ -17,7 +17,7 @@ def printer(attendees)
   attendees_size=attendees.size
   count=0
   while count<attendees_size
-    puts batch_badge_creator(attendees)
+    puts name_tags
       puts room_assignments
       count+=1
   end
