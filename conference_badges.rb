@@ -16,13 +16,7 @@ end
 
 def printer(attendees)
   array = batch_badge_creator(attendees)
-  
   array.each{|badge| puts badge}
-
-  #attendees_size=attendees.size
-  #count=0
-  #while count<attendees_size
-  #    puts room_assignments
-  #    count+=1
-  #end
+  array2 = assign_rooms(attendees)
+  array2.each{|room| puts room}
 end
