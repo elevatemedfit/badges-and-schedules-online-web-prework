@@ -12,7 +12,7 @@ end
 
 def printer(attendees)
 
-   puts batch_badge_creator(attendees)
-puts badge_maker(name)
+   puts batch_badge_creator(attendees[0])
+puts badge_maker(name[0])
 
 end
