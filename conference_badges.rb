@@ -12,7 +12,7 @@ end
 
 def printer(attendees)
 
-   puts batch_badge_creator(attendees)
+   puts batch_badge_creator.shift(attendees)
 puts badge_maker.each.shift(name)
 
 end
