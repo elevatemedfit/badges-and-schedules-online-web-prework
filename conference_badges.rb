@@ -3,7 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-     attendees.map {|name|  badge_maker(name)}
+    tags= attendees.map {|name|  badge_maker(name)}
 end
 
 def assign_rooms(attendees)
@@ -16,8 +16,7 @@ def printer(attendees)
   attendees_size=attendees.size
   count=0
   while count<attendees_size
-    puts batch_badge_creator(attendees)
-      badge_maker(attendees)
+    puts tags
       puts room_assignments
       count+=1
   end
