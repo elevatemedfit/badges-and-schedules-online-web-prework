@@ -7,10 +7,13 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-   return room_assignments=attendees.map.each_with_index { |e,index|  "Hello, #{e}! You'll be assigned to room #{index+1}!"}
+  size=attendees.size
+  count=0
+   attendees.map { |e|  "Hello, #{e}! You'll be assigned to room #{count+=1}!"}
 end
 
 def printer(attendees)
-   puts batch_badge_creator(attendees)
-      badge_maker(attendees))
+   batch_badge_creator(attendees)
+      badge_maker(attendees)
+      puts assign_rooms(attendees)
   end
