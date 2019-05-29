@@ -12,5 +12,5 @@ end
 
 def printer(attendees)
    puts batch_badge_creator(attendees)
-      badge_maker.unshift(name)
+      badge_maker(attendees))
   end
