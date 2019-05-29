@@ -13,6 +13,6 @@ end
 def printer(attendees)
 
    puts batch_badge_creator(attendees)
-puts badge_maker.map{|name,index|}
+puts badge_maker.pop{|name,index|}
 
 end
