@@ -17,7 +17,6 @@ def printer(attendees)
   attendees_size=attendees.size
   count=0
   while count<attendees_size
-    puts name_tags
       puts room_assignments
       count+=1
   end
