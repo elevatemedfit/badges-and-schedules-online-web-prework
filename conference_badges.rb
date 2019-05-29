@@ -1,5 +1,5 @@
 def badge_maker(name)
-       name.map{|n|"Hello, my name is #{n}."
+       name.map{|n|"Hello, my name is #{n}."}
 end
 
 def batch_badge_creator(attendees)
